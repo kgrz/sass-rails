@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "sass-rails"
 
   s.add_dependency 'sass',            '>= 3.1.10'
-  s.add_dependency 'railties',        '>= 3.0.0'
-  s.add_dependency 'sprockets-rails', '> 2.0.0'
+  s.add_dependency 'railties',        '~> 3.2.0'
+  s.add_dependency 'tilt',            '~> 1.3'
 
   s.files         = Dir.glob("lib/**/*") + Dir.glob("test/**/*") + [ 'README.md', 'MIT-LICENSE']
   s.require_paths = ["lib"]
